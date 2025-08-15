@@ -54,6 +54,10 @@ public class ArrList {
 
         arrayListForArray(fruits);
 
+        System.out.println(verifyElementsInArray(fruits, "apple")); // verify element exist in arrayList;
+
+        System.out.println(checkIfEmpty(fruits));
+
     }
 
     public static void printWithForLoops(List<String> cars){
@@ -82,5 +86,13 @@ public class ArrList {
     public static void arrayListForArray(List<String> fruits){
         String[] carsForArray = fruits.toArray(new String[0]);
         System.out.println(Arrays.toString(carsForArray));
+    }
+
+    public static boolean verifyElementsInArray(List<String> fruits, String element){
+        return fruits.contains(element);
+    }
+
+    public static boolean checkIfEmpty(List<String> fruits){
+        return fruits.isEmpty();
     }
 }
