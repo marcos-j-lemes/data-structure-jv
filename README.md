@@ -50,8 +50,9 @@ Limitations:
 * Fixed size (cannot be resized once created).
 * Inserting/removing elements requires shifting other elements.
 
----
 > [Study about array](./src/estruturas/sequenciais/Arr.java)
+
+---
 
 ### ArrayList
 
@@ -83,6 +84,8 @@ Limitations:
 
 * Slower insertions/removals in the middle compared to linked structures.
 * Slightly more memory usage than arrays due to dynamic nature.
+
+> [Study about ArrayList](./src/estruturas/sequenciais/ArrList.java)
 
 ## Future Topics
 
