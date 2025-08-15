@@ -51,7 +51,7 @@ Limitations:
 * Inserting/removing elements requires shifting other elements.
 
 ---
-
+> [Study about array](./src/estruturas/sequenciais/Arr.java)
 
 ### ArrayList
 
